@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>SMS FCA</title>
+        <link rel="shortcut icon" href="title-im.png">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <img class="logo" src="logo.png">
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href="#">Leaders</a></li>
+                        <li><a href="credits.html" target="_blank">Credits</a></li>
+                    </ul>
+                </div>
+            </nav>
+                <h1>Leaders</h1>
+                
+        </header>
+        <div class="information">
+            <h2>Who are the leaders?</h2>
+            <table>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Occupation</th>
+                </tr>
+                <tr>
+                    <td>Micah</td>
+                    <td>Schools</td>
+                    <td>Student</td>
+                </tr>
+                <tr>
+                    <td>Aaron</td>
+                    <td>Dean</td>
+                    <td>Teacher</td>
+                </tr>
+                <tr>
+                    <td>Cynthia</td>
+                    <td>Herman</td>
+                    <td>Student</td>
+                </tr>
+                <tr>
+                    <td>Jordan</td>
+                    <td>Finnell</td>
+                    <td>Student</td>
+                </tr>
+                <tr>
+                    <td>Jackie</td>
+                    <td>Turner</td>
+                    <td>Teacher</td>
+                </tr>
+                <tr>
+                    <td>Brett</td>
+                    <td>McFall</td>
+                    <td>Teacher</td>
+                </tr>
+                <tr>
+                    <td>Marty</td>
+                    <td>Levendusky</td>
+                    <td>Student</td>
+                </tr>
+            </table>
+        </div>
+        <script type="text/javascript">
+            $(window).on("scroll", function() {
+                if($(window).scrollTop()){
+                    $('nav').addClass('black');
+                }
+                else{
+                    $('nav').removeClass('black');
+                }
+            })
+        </script>
+    </body>
+</html>
